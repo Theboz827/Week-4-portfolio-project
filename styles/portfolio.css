@@ -3,7 +3,7 @@ Portfolio site CSS */
 
 :root {
   --primary-background: #f8f2ff;
-  --primary-text: blueviolet;
+  --primary-text: #743a87;
   --script-font: "Petit Formal Script", cursive;
   --primary-font: "Open Sans", sans-serif;
 }
@@ -36,7 +36,7 @@ p {
 .homepage-hero {
   background-color: var(--primary-background);
   text-align: center;
-  padding-bottom: 20px;
+  padding: 40px 0px 60px 0px;
 }
 
 .homepage-btn {
@@ -79,7 +79,8 @@ p {
 }
 
 .font-h4 {
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .middle-section {
@@ -87,6 +88,10 @@ p {
 }
 .img {
   box-shadow: rgba(27, 1, 43, 0.3) 0px 7px 7px;
+}
+
+.padding-margin {
+  padding: 35px 0px 35px 0px;
 }
 
 /* Media queries */
@@ -102,8 +107,27 @@ p {
   .img-padding {
     margin: 5px;
   }
+  .align-text {
+    text-align: center;
+  }
 
-  .email-link {
+  .font-h1 {
+    font-size: 48px;
+    font-weight: bold;
+  }
+
+  .font-h2 {
+    font-size: 30px;
+  }
+  .font-h3 {
     font-size: 20px;
+  }
+  .font-h4 {
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  .padding-margin {
+    padding: 20px 0px 20px 0px;
   }
 }
