@@ -19,10 +19,18 @@ h2 {
 h3 {
   font-family: var(--primary-font);
 }
+h4 {
+  font-family: var(--primary-font);
+}
 
 p {
   font-family: var(--primary-font);
   color: var(--primary-text);
+  font-size: 15px;
+}
+
+.homepage-headings {
+  font-size: 26px;
 }
 
 .homepage-hero {
@@ -68,6 +76,10 @@ p {
 }
 .font-h3 {
   font-size: 24px;
+}
+
+.font-h4 {
+  font-size: 20px;
 }
 
 .middle-section {
