@@ -109,7 +109,7 @@ p {
 
   p {
     font-size: 15px;
-    padding: 20px;
+    padding: 10px;
   }
   .img-padding {
     margin: 5px;
@@ -135,6 +135,6 @@ p {
   }
 
   .padding-margin {
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px 15px 0px;
   }
 }
