@@ -60,11 +60,13 @@ p {
   text-decoration: none;
 }
 
-.homepage-button:hover {
+.homepage-btn:hover {
   color: var(--primary-background);
+  background-color: #9052a3;
 }
 .homepage-content-btn:hover {
   color: var(--primary-background);
+  background-color: #9052a3;
 }
 .font-h1 {
   font-size: 65px;
