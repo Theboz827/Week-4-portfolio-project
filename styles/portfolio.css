@@ -3,9 +3,10 @@ Portfolio site CSS */
 
 :root {
   --primary-background: #f8f2ff;
-  --primary-text: #743a87;
+  --primary-text: #623272;
   --script-font: "Petit Formal Script", cursive;
   --primary-font: "Open Sans", sans-serif;
+  --shadow: rgba(27, 1, 43, 0.3) 0px 7px 7px;
 }
 h1 {
   font-family: var(--script-font);
@@ -26,7 +27,8 @@ h4 {
 p {
   font-family: var(--primary-font);
   color: var(--primary-text);
-  font-size: 15px;
+  font-size: 16px;
+  padding: 10px 5px 0px 5px;
 }
 
 .homepage-headings {
@@ -47,6 +49,7 @@ p {
   color: #fff;
   background-color: #743a87;
   border: purple;
+  box-shadow: var(--shadow);
 }
 
 .homepage-content-btn {
@@ -58,12 +61,14 @@ p {
   background-color: #743a87;
   border: purple;
   text-decoration: none;
+  box-shadow: var(--shadow);
 }
 
 .homepage-btn:hover {
   color: var(--primary-background);
   background-color: #9052a3;
 }
+
 .homepage-content-btn:hover {
   color: var(--primary-background);
   background-color: #9052a3;
@@ -89,7 +94,7 @@ p {
   background-color: var(--primary-background);
 }
 .img {
-  box-shadow: rgba(27, 1, 43, 0.3) 0px 7px 7px;
+  box-shadow: var(--shadow);
 }
 
 .padding-margin {
@@ -103,7 +108,7 @@ p {
   }
 
   p {
-    font-size: 14px !important;
+    font-size: 15px;
     padding: 20px;
   }
   .img-padding {
