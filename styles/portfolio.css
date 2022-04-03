@@ -1,9 +1,57 @@
+/* Sarah Miller 
+Portfolio site CSS */
+
+:root {
+  --primary-background: #f8f2ff;
+  --primary-text: blueviolet;
+  --script-font: "Petit Formal Script", cursive;
+  --primary-font: "Open Sans", sans-serif;
+}
 h1 {
-  font-family: "Open Sans", sans-serif;
-  font-family: "Petit Formal Script", cursive;
+  font-family: var(--script-font);
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: var(--primary-font);
+}
+
+h3 {
+  font-family: var(--primary-font);
 }
 
 p {
-  font-family: "Rubik", sans-serif;
-  color: blueviolet;
+  font-family: var(--primary-font);
+  color: var(--primary-text);
+}
+
+.homepage-hero {
+  background-color: var(--primary-background);
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.homepage-button {
+  display: inline-block;
+  padding: 15px;
+  margin-top: 25px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #743a87;
+  border: purple;
+}
+.homepage-button:hover {
+  color: var(--primary-background);
+}
+
+.font-h1 {
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.font-h2 {
+  font-size: 40px;
+}
+.font-h3 {
+  font-size: 24px;
 }
