@@ -102,12 +102,13 @@ p {
 }
 
 .about-img {
+  box-shadow: var(--shadow);
 }
-
+/*
 .about-padding {
   padding: 20px 30px 20px 30px;
 }
-
+*/
 .about-font-h1 {
   font-size: 58px;
 }
@@ -115,7 +116,12 @@ p {
   font-size: 30px;
 }
 .about-font-h3 {
-  font-size: 18px;
+  font-size: 20px;
+}
+
+.about-section {
+  padding: 50px;
+  background-color: var(--primary-background);
 }
 
 /* Media queries */
@@ -156,8 +162,9 @@ p {
   }
   .about-section {
     text-align: center;
+    padding-bottom: 20px;
   }
   .about-img {
-    margin-top: 25px;
+    margin-top: 50px;
   }
 }
