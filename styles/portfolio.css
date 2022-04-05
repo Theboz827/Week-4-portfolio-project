@@ -93,7 +93,7 @@ p {
 .middle-section {
   background-color: var(--primary-background);
 }
-.img {
+.img-homepage {
   box-shadow: var(--shadow);
 }
 
@@ -101,9 +101,20 @@ p {
   padding: 35px 0px 35px 0px;
 }
 
+.about-img {
+}
+
+.about-padding {
+  padding: 20px;
+}
+
+.about-font-h3 {
+  font-size: 24px;
+}
+
 /* Media queries */
 @media (max-width: 768px) {
-  .img {
+  .img-homepage {
     display: none;
   }
 
@@ -136,5 +147,11 @@ p {
 
   .padding-margin {
     padding: 15px 0px 15px 0px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-img {
+    margin-top: 25px;
   }
 }
