@@ -105,11 +105,17 @@ p {
 }
 
 .about-padding {
-  padding: 20px;
+  padding: 20px 30px 20px 30px;
 }
 
+.about-font-h1 {
+  font-size: 58px;
+}
+.about-font-h2 {
+  font-size: 30px;
+}
 .about-font-h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 
 /* Media queries */
