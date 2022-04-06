@@ -92,23 +92,22 @@ p {
 
 .middle-section {
   background-color: var(--primary-background);
+  padding: 50px;
 }
 .img-homepage {
   box-shadow: var(--shadow);
 }
 
-.padding-margin {
+.padding-homepage {
   padding: 35px 0px 35px 0px;
 }
 
 .about-img {
   box-shadow: var(--shadow);
+  display: block;
+  margin: 0 auto;
 }
-/*
-.about-padding {
-  padding: 20px 30px 20px 30px;
-}
-*/
+
 .about-font-h1 {
   font-size: 58px;
 }
@@ -120,8 +119,32 @@ p {
 }
 
 .about-section {
-  padding: 50px;
+  padding: 100px;
   background-color: var(--primary-background);
+}
+
+.portfolio-content {
+  text-align: center;
+  background-color: var(--primary-background);
+  padding-top: 35px;
+}
+
+.portfolio-h1 {
+  font-family: var(--primary-font);
+  text-align: center;
+}
+
+.img-portfolio {
+  box-shadow: var(--shadow);
+}
+
+.portfolio-headings {
+  padding-top: 30px;
+}
+
+.portfolio-p {
+  padding-bottom: 30px;
+  font-size: 18px;
 }
 
 /* Media queries */
@@ -160,11 +183,33 @@ p {
   .padding-margin {
     padding: 15px 0px 15px 0px;
   }
+
+  .middle-section {
+    padding-top: 50px;
+  }
+
   .about-section {
     text-align: center;
     padding-bottom: 20px;
   }
   .about-img {
     margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .about-font-h1 {
+    font-size: 48px;
+  }
+
+  .portfolio-h1 {
+    font-size: 30px;
+  }
+
+  .portfolio-h2 {
+    font-size: 24px;
+  }
+
+  .portfolio-p {
+    font-size: 14px;
   }
 }
