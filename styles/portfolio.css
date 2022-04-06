@@ -147,6 +147,10 @@ p {
   font-size: 18px;
 }
 
+.contact-section {
+  background-color: var(--primary-background);
+  padding: 25px 25px 25px 50px;
+}
 /* Media queries */
 @media (max-width: 768px) {
   .img-homepage {
@@ -210,6 +214,21 @@ p {
   }
 
   .portfolio-p {
+    font-size: 14px;
+  }
+
+  .contact-h1 {
+    text-align: center;
+    font-size: 48px;
+  }
+
+  .contact-h3 {
+    font-size: 20px;
+  }
+  .contact-section {
+    text-align: center;
+  }
+  .contact-p {
     font-size: 14px;
   }
 }
