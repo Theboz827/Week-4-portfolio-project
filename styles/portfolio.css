@@ -151,6 +151,39 @@ p {
   background-color: var(--primary-background);
   padding: 25px 25px 25px 50px;
 }
+
+nav {
+  padding: 25px 0;
+  font-family: var(--primary-font);
+}
+.nav-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 20px;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #000;
+}
+nav a:hover {
+  color: var(--primary-text);
+}
+
+nav li.active a {
+  color: purple;
+  font-weight: bold;
+}
+
 /* Media queries */
 @media (max-width: 768px) {
   .img-homepage {
@@ -230,5 +263,14 @@ p {
   }
   .contact-p {
     font-size: 14px;
+  }
+
+  .nav-logo {
+    display: none;
+  }
+
+  nav ul {
+    margin: 0 auto;
+    line-height: 1.2;
   }
 }
