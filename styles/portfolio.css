@@ -261,6 +261,20 @@ footer .contact-callout p {
   color: #000;
   font-weight: bold;
 }
+
+.github {
+  font-size: 13px;
+  display: block;
+  text-align: center;
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.github:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
 /* Media queries */
 @media (max-width: 768px) {
   .img-homepage {
