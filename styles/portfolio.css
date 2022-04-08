@@ -313,9 +313,19 @@ footer .contact-callout p {
   }
 
   .about-font-h1 {
-    font-size: 48px;
+    font-size: 40px;
   }
 
+  .about-font-h2 {
+    font-size: 28px;
+  }
+
+  .about-font-h3 {
+    font-size: 18px;
+  }
+  .about-p {
+    font-size: 14px;
+  }
   .portfolio-h1 {
     font-size: 30px;
   }
